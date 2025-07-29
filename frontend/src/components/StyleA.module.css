@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 6%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header .logo {
+  display: flex;
+  align-items: flex-start;
+}
+.header .logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+*:active,
+*:focus-within {
+  border: none;
+  outline: none;
+}
+
+.c_login_main {
+  display: flex;
+  height: 100vh;
+}
+.c_signup_main {
+    height: auto;
+}
+.c_signup_main .left{
+    width: 50%;
+    flex: none !important;
+}
+.c_login_main .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.c_login_main .left .text {
+  width: 70%;
+  margin: 30px auto 25px;
+}
+.c_login_main .left .text h1{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+.c_login_main .left .text h4{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    color :#5E6670;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.c_login_main .left form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.c_login_main .left form input {
+  width: 70%;
+  padding: 8px 14px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-color: #E4E5E8;
+  border-radius: 6px;
+  border-style: solid;
+  font-weight: 500;
+}
+.c_login_main .left form [type="submit"] {
+  width: 70%;
+  padding: 10px;
+  background-color: #0A65CC;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+   margin: 10px 0; 
+}
+.c_login_main .right {
+  flex: 1;
+  background-color: #C4DFF4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.c_signup_main .right {
+    width: 50%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c_login_main .right img {
+  max-width: 80%;
+  height: auto;
+  max-height: 95vh;
+}
+
+.c_login_main .toggle{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    padding: 30px 0;
+}
+.c_login_main .toggle h4{
+    cursor: pointer;
+font-weight: 500;
+font-family: "Inter", sans-serif;
+color: #5E6670;
+font-size: 13px;
+}
+.c_login_main .toggle h4.active{
+    color: #0A65CC;
+    border-bottom: 1px solid #0A65CC;
+    padding-bottom: 12px;
+    font-weight: 600;
+}
+
+.file-upload-wrapper {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    background-color: #fff;
+    width: 70%;
+    position: relative;
+    margin: 10px 0;
+}
+
+.file-upload-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.placeholder-image {
+    width: 90px;
+    height: 90px;
+    margin-right: 30px;
+}
+
+.file-upload-text {
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    padding: 4px 20px;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 13px;
+    left: 130px;
+}
+
+.file-upload-input {
+    display: none;
+}
+
+.file-upload-filename {
+    margin-left: 10px;
+    color: #888;
+    font-weight: normal;
+    position: absolute;
+    right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    bottom: 13px;
+}
+
+.c_home_main{
+    margin: 100px auto 150px;
+    width: 80%;
+   
+}
+.c_home_main .formContainer {
+  width: 100%;
+  margin: 30px auto;
+}
+.c_home_main .formContainer *{
+  font-family: 'Inter',sans-serif;
+}
+.c_home_main .formRow *{
+  font-weight: 400;
+}
+.c_home_main .formRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.c_home_main .formRow label {
+  width: 100%;
+  margin-bottom: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.c_home_main .formRow input[type="text"],
+.c_home_main .formRow input[type="number"],
+.c_home_main .formRow select,
+.c_home_main .formRow textarea {
+  width: -webkit-fill-available;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.c_home_main .formRow.doubleColumn {
+  justify-content: space-between;
+}
+
+.c_home_main .formRow.doubleColumn .column {
+  width: 30%;
+}
+
+.c_home_main .formRow.doubleColumn .emptySpace {
+  width: 30%;
+}
+
+.c_home_main .formRow .checkboxGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c_home_main .formRow .checkboxGroup label {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.c_home_main .formRow .checkboxGroup input[type="checkbox"] {
+  display: none;
+}
+
+.c_home_main .formRow .checkboxGroup input[type="checkbox"] + span {
+  width: 23px;
+  height: 23px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.c_home_main .formRow .checkboxGroup input[type="checkbox"]:checked + span {
+  background-color: #007bff;
+  color: white;
+}
+.c_home_main .taging {
+  background-color: #d5d6d8e5;
+  width: fit-content;
+  padding: 8.5px;
+  color: #5e6670;
+  position: absolute;
+  top: 29px;
+  right: 0;
+  border-radius: 0 5px 5px 0;
+  
+}
+
+.c_home_main .tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.c_home_main .tag {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.c_home_main .tag span {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.c_home_main .tag span:hover {
+  color: red;
+}
+
+.c_home_main .btn-3,
+.c_home_main .postJobButton{
+    width: 148px;
+    border: none;
+    color:#fff;
+    background-color: #0a65cc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.c_home_main .jobbox{
+    width: 312px;
+    background-color: #E7F0FA;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c_home_main .jobbox img{
+    width: 64px;
+    height: 64px;
+    
+}
+.c_home_main .jobsTable{
+    margin: 80px 0;
+}
+.c_home_main .jobsTable *{
+    font-family: 'Inter',sans-serif;
+    font-weight: normal;
+}
+.c_home_main .jobsTable .table {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.c_home_main .jobsTable .tableHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 40px;
+    border-radius: 4px;
+    background-color: #F1F2F4;
+}
+.c_home_main .jobsTable .tableRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 25px;
+    margin: 15px 0 0 0;
+}
+
+
+.c_home_main .jobsTable .tableCell {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.c_home_main .jobsTable .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.c_home_main .jobsTable .avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.c_home_main .jobsTable .button {
+    padding: 10px 18px;
+    background-color: #F1F2F4;
+    color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+}
+.errorMessages {
+  color: red;
+  margin-bottom: 20px;
+}

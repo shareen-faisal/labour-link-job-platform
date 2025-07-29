@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+  }
+  .header {
+    display: flex;
+    /* main axsis */
+    justify-content: space-between;
+    /* cross axsis */
+    align-items: center;
+    padding: 15px 6%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .header .logo {
+    display: flex;
+    align-items: flex-start;
+  }
+  .header .logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  
+  .c_login_main {
+    display: flex;
+    height: 100vh;
+  }
+
+  .c_login_main .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .c_login_main .left .text {
+    width: 70%;
+    margin: 30px auto 25px;
+  }
+
+  .c_login_main .left form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textAndPassowrd{
+    width: 70%;
+    padding: 10px 16px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-color: #E4E5E8;
+    border-radius: 6px;
+    border-style: solid;
+    font-weight: 500;
+  }
+  .adminSubmit {
+    width: 70%;
+    padding: 10px;
+    background-color: #0A65CC;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 10px 0; 
+  }
+  .c_login_main .right {
+    flex: 1;
+    background-color: #C4DFF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .c_login_main .right img {
+    max-width: 80%;
+    height: auto;
+    max-height: 95vh;
+  }
+  #admin_login_h2{
+    color: #18191C;
+    text-align: center;
+    margin-bottom: 100px;
+  } 
+
+

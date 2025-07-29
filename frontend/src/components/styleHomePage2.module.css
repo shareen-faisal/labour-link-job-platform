@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
+
+#d1{
+    background-color: lightgrey;
+    padding: 10px;
+    padding-left: 90px;
+    right: 0;
+    left: 0;
+    margin-bottom: 40px;
+    margin-top:80px ;
+
+
+}
+.filter1{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding-left: 7px;
+  margin-left:90px;
+  margin-right: 20px;
+  color: #767F8C;
+  width: 20%;
+  height: 30px;
+  font-family: 'Inter',sans-serif;
+}
+
+.filter{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding-left: 7px;
+    margin-left: 3px;
+    margin-right: 20px;
+    color: #767F8C;
+    width: 20%;
+    height: 30px;
+    font-family: 'Inter',sans-serif;
+}
+
+#job_p{
+  text-align: center;
+  font-size: large;
+}
+
+#searchbutton{
+
+  background-color: #0A65CC;
+  /* padding-left: 5px; */
+  border: 1px solid #0A65CC;
+  border-radius: 3px;
+  /* margin-left: 0px; */
+  width: 10%;
+  height: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Inter',sans-serif;
+}
+
+#uOneJobContent{
+  float: left; 
+  width: 100%;
+}
+
+
+.job{
+    margin-left: 92px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #C5C9D6;
+    border-radius:3px ;
+    background-color: white;
+    width: 86%;
+    height: 65px;
+   
+
+}
+
+.job_info{
+    margin-left: 0px;
+    margin-top: 10px;
+    float: left;
+}
+
+#jobTitle{
+    margin-left: 45px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: medium;
+    font-family: 'Inter',sans-serif;
+
+}
+
+.job_info_para{
+    font-size: 12px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 0px;
+    color: #666;
+    font-family: 'Inter',sans-serif;
+}
+
+.imtiaz{
+    width: 8%;
+    height: 50px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.applyNow1{
+    width: 10%;
+    height:30px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: #E7F0FA;
+    color: #0A65CC;
+    border: 1px solid #E7F0FA  ;
+    font-size: small;
+    font-weight: bold;
+}
+
+.job_listings_container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.job_listings{
+  flex: 1;
+}
+
+#job_head{
+    width: 86%;
+    height: 100px;
+    margin-left: 92px;
+    border: 1px solid #C5C9D6;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    float: left;
+    
+}
+
+#job_subhead{
+   
+    margin-left: 30px;
+    float: left;
+}
+
+#job_head_img{
+    height:70px ;
+    width: 8%;
+    float: left;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+#j_h_h3{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: 'Inter',sans-serif;
+}
+#j_h_h4{
+    color: gray;
+    margin-top: 3px;
+    font-family: 'Inter',sans-serif;
+}
+
+.applyNow2{
+    width: 15%;
+    height:40px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    background-color: #0A65CC;
+    color: white;
+    border: 1px solid #0A65CC  ;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+}
+
+.job_descrip{
+    
+    width: 43%;
+    height: 270px;
+    margin-left: 92px;
+    border: 1px solid #C5C9D6;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 20px;
+    float: left;
+    margin-right: 0px;
+    font-family: 'Inter',sans-serif;
+  
+    
+}
+#job_descrip_skills{
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-family: 'Inter',sans-serif;
+}
+
+
+.job_overview_container {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #C5C9D6;
+  border-radius: 10px;
+  height: 570px;
+  font-family: Arial, sans-serif;
+  float: right;
+  margin-right: 80px;
+  margin-top: 60px;
+  font-family: 'Inter',sans-serif;  
+}
+
+#job_des_p{
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: 'Inter',sans-serif;
+}
+
+#skills_ul{
+  padding: 20px;
+  font-weight: normal;
+ font-family: 'Inter',sans-serif;
+  
+}
+
+#job_overview {
+   
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.jo_row {
+  float: left;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  font-family: 'Inter',sans-serif;
+}
+
+.jo_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.jo_icon_img {
+  width: 20px;
+  height: 20px;
+}
+
+.jo_info {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.jo_info p {
+  margin: 0;
+}
+
+.jo_days {
+  display: flex;
+  align-items: center;
+}
+
+.jo_day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.closebutton {
+  position: absolute;
+  top: 38px;
+  right: 280px;
+  font-size: 20px;
+  width: 35px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  background-color: #E5E5E5;
+  border-radius: 50px;
+}
+
+.jo_day_active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#job_overview_r1{
+    float: left;
+}
+
+.row_title{
+    color: #767F8C;
+    font-size: 13px;
+    /* font-weight: normal; */
+}
+
+.row_title_para{
+  font-weight:normal;
+}
+
+#outerFormContainer{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+/* background-color: rgba(0, 0, 0, 0.5); */
+background-color: rgba(46, 42, 42, 0.5);
+/* display: none; */
+z-index: 1;   
+/* position: relative; */
+}
+
+
+.formcontainer {
+  width: 100%;
+  max-width: 700px;
+  height: 560px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 32px;
+  padding-top: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-family: 'Inter',sans-serif;
+  /* display: none; */
+}
+
+  
+.formtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+    text-align: center;
+  }
+
+  
+.formgroup {
+    margin-bottom: 1.0rem;
+  }
+
+    
+.formgroup2 {
+    margin-bottom: 1.5rem;
+
+
+}
+
+#otherside{
+    float: left;
+    /* border: 1px solid black; */
+    margin-left: 75px;
+    width: 250px;
+
+}
+
+#leftside{
+    float: left;
+    /* margin-right: 100px; */
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 250px;
+    margin-left: 25px;
+    /* width: 400px; */
+}
+
+
+
+#bottomside{
+    float: left;
+    border: 1px solid black;
+    width: 30%;
+}
+  
+  
+  .formlabel {
+    display: block;
+    /* margin-bottom: 10px; */
+    font-size: 11px;
+    color: #666;
+  }
+  
+  .forminputrow {
+    display: flex;
+    justify-content: space-between;
+    color: #18191c;
+  }
+  
+  .forminput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #18191c;
+    border-radius: 4px;
+    height: 25px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .forminput2 {
+    flex: 1;
+    padding: 10px;
+    
+    border-radius: 4px;
+    height: 25px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .forminput3{
+
+  padding: 2px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+    height: 25px;
+   color: #666;
+    width: 100%;
+    font-size: 11px;
+  }
+  .formgroupuploadfile{
+
+    width: 260px;
+    float: left;
+    height: 180px;
+    border: 2px dashed  #ccc;
+    border-radius: 5px;
+    padding-top: 15px;
+   
+  }
+
+  .formgroupuploadfile2{
+
+    width: 260px;
+    float: left;
+    height: 180px;
+    border: 2px dashed  #ccc;
+    border-radius: 5px;
+    padding-top: 15px;
+    margin-top: 35px;
+    justify-content: center;
+  }
+
+
+ .filelabel{
+    margin-left: 25px;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    color: #666;
+    font-size: small;
+
+ }
+
+ .fileinput{
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #666;
+ }
+
+ .radio{
+    margin-left: 5px;
+ }
+
+.radioinput{
+    font-size: 12px;
+    color: #666;
+    margin-left: 7px;
+    
+}
+
+ /* .radio{
+    color: #666;
+ } */
+
+ #formbutton{
+ width: 15%;
+ height:40px;
+ margin-left: -5px;
+ /* float: right; */
+ margin-top: 20px;
+ /* margin-right: 15px; */
+ background-color: #0A65CC;
+ border-radius: 3px;
+ color: white;
+ border: 1px solid #0A65CC  ;
+ font-size: small;
+ font-weight: bold;
+ float: left;
+ /* align-self: center; */
+
+ }
+
+ /* things to add in next file */
+
+ .apply_link{
+    color:  #0A65CC;
+    text-decoration: none;
+ }
+
+ .apply_link2{
+   color: white;
+    text-decoration: none;
+
+ }
+ #close_btn_verify{
+ 
+  top: 20px;
+  right: 20px;
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  width: 7%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+ }
+
+
+
+ /* //POPUP */
+ .admin_popup_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 42, 42, 0.5);
+    display: block;
+ }
+.admin_popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    float: left;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 580px;
+    height: 230px;
+    color: #54595E;
+    display: block;
+ }
+ 
+ .admin_popup_icon{
+    float: left;
+   
+ } 
+ .admin_popup_info{
+    /* float: right;
+    margin-right: 50px; */
+
+    position: absolute;
+    top: 40px;
+    left: 120px;
+  
+
+ }
+ .yes_btn {
+    color: #fff;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 500px;
+    text-align: center;
+    margin-left: 20px;
+    position: absolute;
+    bottom:  20px;
+    background-color: #007bff;
+    /* right: 10px; */
+    left: 20px;
+    right: 20px;
+ }
+
+ #yes_verify_btn{
+    background-color: #4487FC;
+
+ } 
+ 
+ .close_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    width: 7%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+ }
+
+ .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.pagination button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background-color: #0A65CC;
+ color:white;
+}
