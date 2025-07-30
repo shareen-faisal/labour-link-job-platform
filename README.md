@@ -46,11 +46,73 @@ In a tech-focused job market, non-technical roles often go unnoticed despite the
 
 ## Getting Started
 
-To set up the project locally, follow these steps:
+Follow these instructions to set up and run the project on your local machine.
 
 ### Prerequisites
 
-Install Node.js and npm.
+Make sure you have the following installed:
 
-```sh
-npm install npm@latest -g
+- **Node.js** and **npm**
+- **Python 3.x**
+- **Apache Server** (e.g., XAMPP or WAMP) to host the MySQL database
+
+### Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your_username/labour-link-job-platform.git
+   ```
+
+2. **Navigate into the project directory**
+   ```bash
+   cd labour-link-job-platform
+   ```
+
+---
+
+### 1. Set up the Backend
+
+```bash
+cd backend
+npm install
+nodemon server.js
+```
+
+> This will start your backend server on the configured port.
+
+---
+
+### 2. Set up the Frontend
+
+In a new terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+> This will start the React development server, usually on [http://localhost:5173](http://localhost:5173)
+
+---
+
+### 3. Set up the ATS (Resume Analysis System)
+
+In another terminal:
+
+```bash
+cd ATS
+pip install -r requirements.txt
+python ats.py
+```
+
+> This will run your ATS Python script for resume processing.
+
+---
+
+### 4. Set up the Database
+
+- Use **Apache** to run your **MySQL** database.
+- Import your `.sql` file from the `database/` folder into **phpMyAdmin** or any other MySQL tool.
+- Ensure your **backend server** is configured with the correct database credentials in `.env`.
+
