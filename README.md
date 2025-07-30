@@ -1,12 +1,5 @@
-<!-- Improved compatibility of back to top link -->
-<a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<a id="readme-top"></a>
 
 <div align="center">
   <a href="https://github.com/shareen-faisal/labour-link-job-platform.git">
