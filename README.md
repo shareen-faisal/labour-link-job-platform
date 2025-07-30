@@ -89,7 +89,7 @@ In a new terminal:
 ```bash
 cd frontend
 npm install
-npm run dev
+npm start
 ```
 
 > This will start the React development server, usually on [http://localhost:5173](http://localhost:5173)
@@ -103,7 +103,7 @@ In another terminal:
 ```bash
 cd ATS
 pip install -r requirements.txt
-python ats.py
+python ats_service.py
 ```
 
 > This will run your ATS Python script for resume processing.
