@@ -11,7 +11,6 @@
   <p align="center">
     A job application platform built to empower non-technical roles by connecting job seekers with verified companies.
     <br />
-    <a href="https://github.com/sha-reen-04/labour-link-job-platform"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
