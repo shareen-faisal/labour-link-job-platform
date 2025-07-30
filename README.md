@@ -9,7 +9,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <div align="center">
-  <a href="https://github.com/sha-reen-04/labour-link-job-platform">
+  <a href="https://github.com/shareen-faisal/labour-link-job-platform.git">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
