@@ -17,7 +17,10 @@
 
 ## About The Project
 
-[![Product Screenshot][product-screenshot]](https://github.com/sha-reen-04/labour-link-job-platform)
+[![Product Screenshot][product-screenshot]](https://github.com/shareen-faisal/labour-link-job-platform)
+
+[product-screenshot]: screenshots/about.png
+
 
 In a tech-focused job market, non-technical roles often go unnoticed despite their vital contributions to organizational success. **Labour-Link** seeks to bridge this gap by offering a dedicated platform where companies can post jobs and job seekers can find opportunities aligned with their skills — especially in customer service, sales, and administration.
 
