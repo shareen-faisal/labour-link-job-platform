@@ -116,3 +116,13 @@ python ats_service.py
 - Import your `.sql` file from the `database/` folder into **phpMyAdmin** or any other MySQL tool.
 - Ensure your **backend server** is configured with the correct database credentials in `.env`.
 
+---
+
+## 📧 Contact
+
+**Shareen Faisal**  
+🔗 [GitHub](https://github.com/shareen-faisal)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
