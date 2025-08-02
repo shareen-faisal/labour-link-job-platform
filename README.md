@@ -127,7 +127,7 @@ python ats_service.py
 ![Admin Dashboard](screenshots/admin-dashboard.png)
 
 ### Admin - Login
-![Admin Users](screenshots/admin-login.jpg)
+![Admin Login](screenshots/admin-login.jpg)
 
 
 </details>
@@ -136,19 +136,19 @@ python ats_service.py
 <summary>👤 User Panel Screenshots</summary>
 
 ### User HomePage
-![User Dashboard](screenshots/user-homepage.png)
+![User HomePage](screenshots/user-homepage.png)
 
 ### User Login
-![User Dashboard](screenshots/user-login.png)
+![User Login](screenshots/user-login.jpg)
 
 ### User Registeration
-![User Dashboard](screenshots/user-register.png)
+![User Registeration](screenshots/user-register.jpg)
 
 ### User - Jobs Page
-![User Sale](screenshots/Jobs-Page.png)
+![User Jobs Page](screenshots/Jobs-Page.jpg)
 
 ### User Job Page
-![User Dashboard](screenshots/job-page.png)
+![User Job Page](screenshots/job-page.png)
 
 ### User Job Application Form
 ![User Dashboard](screenshots/application-form.png)
