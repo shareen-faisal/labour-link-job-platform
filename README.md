@@ -156,7 +156,7 @@ python ats_service.py
 </details>
 
 <details>
-<summary>🏢 Company Settings</summary>
+<summary>🏢 Company Panel Screenshots</summary>
 
 ### Company HomePage
 ![Company HomePage](screenshots/c-home.jpg)
