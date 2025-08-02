@@ -159,22 +159,22 @@ python ats_service.py
 <summary>🏢 Company Settings</summary>
 
 ### Company HomePage
-![Company Profile](screenshots/company-homepage.png)
+![Company HomePage](screenshots/c-home.jpg)
 
 ### Company Login
-![Company Preferences](screenshots/company-login.png)
+![Company Login](screenshots/company-login.jpg)
 
 ### Company Registeration
-![Company Preferences](screenshots/company-register.png)
+![Company Preferences](screenshots/company-register.jpg)
 
 ### Company Job Post
-![Company Preferences](screenshots/jobpost-form.png)
+![Company Job Post](screenshots/jobpost-form.jpg)
 
 ### Company - Applicants Page
-![Company Preferences](screenshots/applicants.png)
+![Company Applicants Page](screenshots/applicants.png)
 
 ### Company Applicant Details
-![Company Preferences](screenshots/applicant-details.png)
+![Company Applicant Details](screenshots/applicant-details.png)
 
 </details>
 
