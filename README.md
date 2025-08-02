@@ -118,6 +118,67 @@ python ats_service.py
 
 ---
 
+## 📸 System Screenshots
+
+<details>
+<summary>🛠️ Admin Panel Screenshots</summary>
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### Admin - Login
+![Admin Login](screenshots/admin-login.jpg)
+
+
+</details>
+
+<details>
+<summary>👤 User Panel Screenshots</summary>
+
+### User HomePage
+![User HomePage](screenshots/user-homepage.png)
+
+### User Login
+![User Login](screenshots/user-login.jpg)
+
+### User Registeration
+![User Registeration](screenshots/user-register.jpg)
+
+### User - Jobs Page
+![User Jobs Page](screenshots/Jobs-Page.jpg)
+
+### User Job Page
+![User Job Page](screenshots/job-page.png)
+
+### User Job Application Form
+![User Dashboard](screenshots/application-form.png)
+
+</details>
+
+<details>
+<summary>🏢 Company Settings</summary>
+
+### Company HomePage
+![Company HomePage](screenshots/c-home.jpg)
+
+### Company Login
+![Company Login](screenshots/company-login.jpg)
+
+### Company Registeration
+![Company Preferences](screenshots/company-register.jpg)
+
+### Company Job Post
+![Company Job Post](screenshots/jobpost-form.jpg)
+
+### Company - Applicants Page
+![Company Applicants Page](screenshots/applicants.png)
+
+### Company Applicant Details
+![Company Applicant Details](screenshots/applicant-details.png)
+
+</details>
+
+
 ## 📧 Contact
 
 **Shareen Faisal**  
