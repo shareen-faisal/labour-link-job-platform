@@ -127,7 +127,7 @@ python ats_service.py
 ![Admin Dashboard](screenshots/admin-dashboard.png)
 
 ### Admin - Login
-![Admin Users](screenshots/admin-login.png)
+![Admin Users](screenshots/admin-login.jpg)
 
 
 </details>
